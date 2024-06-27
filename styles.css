@@ -1,15 +1,15 @@
-@@ -0,0 +1,77 @@
+
 body {
-  background-color: #222222;
+  
 }
 
-html,
-body {
-  display: grid;
+
+header {
+  display: flex;
   text-align: center;
   justify-content: center;
-  place-items: center;
-  height: 100%;
+  place-items: center; 
+ /* height: 100%;*/
 }
 
 nav img{
@@ -88,3 +88,41 @@ header{
 .nav #contact:checked ~ .tab {
   left: 75%;
 }
+
+.row {
+  display: flex;
+  width: 100%;
+  
+}
+
+
+.aboutme{
+
+  width: 700px;
+  height: 250px;
+  margin-top: 150px;
+  background-color: rgb(70, 230, 208);
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  justify-content: start;
+
+  padding-right: 20%;
+  
+  
+}
+
+div img{
+  padding: 40px;
+}
+
+.video{
+
+  width: 500px;
+  height: 250px;
+  margin-top: 150px;
+  background-color: rgb(70, 230, 208);
+  display: flex;
+  justify-content: start;
+
+}
+
