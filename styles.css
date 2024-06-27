@@ -98,15 +98,16 @@ header{
 
 .aboutme{
 
-  width: 700px;
-  height: 250px;
+  width: 450px;
+  height: 300px;
   margin-top: 150px;
-  background-color: rgb(70, 230, 208);
+  border-radius: 10px 10px 0 0;;
+
   display: grid;
   grid-template-columns: 1fr  1fr;
   justify-content: start;
 
-  padding-right: 20%;
+  padding-right: 5%;
   
   
 }
@@ -117,10 +118,10 @@ div img{
 
 .video{
 
-  width: 500px;
+  width: 400px;
   height: 250px;
   margin-top: 150px;
-  background-color: rgb(70, 230, 208);
+ 
   display: flex;
   justify-content: start;
 
